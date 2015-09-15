@@ -10,11 +10,20 @@ package Clases;
  * @author Mario
  */
 public class Chofer {
+    int Identificador;
     String Nombre;
     String Apellido;
     String Correo;
     String Contrasena;
 
+    
+     public int getIdentificador() {
+        return Identificador;
+    }
+
+    public void setNombre(int Identificador) {
+        this.Identificador = Identificador;
+    }
     public String getNombre() {
         return Nombre;
     }
@@ -50,7 +59,8 @@ public class Chofer {
     public Chofer(){
     }
     
-    public Chofer(String nombre, String apellido, String correo, String contrasena){
+    public Chofer(int id,String nombre, String apellido, String correo, String contrasena){
+        this.Identificador = id;
         this.Nombre = nombre;
         this.Apellido = apellido;
         this.Correo = correo;

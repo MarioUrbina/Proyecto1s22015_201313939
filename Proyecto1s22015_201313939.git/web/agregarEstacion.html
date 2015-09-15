@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Transmetro</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="ADD SITE DESCRIPTION">
+		<meta name="author" content="ADD AUTHOR INFORMATION">
+		<meta name="robots" content="index, follow">
+
+		<!-- icons -->
+		<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Bootstrap Core CSS file -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+		<!-- Override CSS file - add your own CSS rules -->
+		<link rel="stylesheet" href="assets/css/styles2.css">
+
+		<!-- Conditional comment containing JS files for IE6 - 8 -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5.js"></script>
+			<script src="assets/js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<!-- Navigation -->
+	    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+			<div class="container-fluid">
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="agregarAdmin.html">Agregar Administrador</a></li>
+                                                <li><a href="">Agregar Estacion</a></li>
+                                                 <li><a href="agregarChofer.html">Agregar Chofer</a></li>
+                                                <li><a href="agregarBus.html">Agregar Bus</a></li>
+                                                <li><a href="agregarRuta.html">Agregar Ruta</a></li>
+						<li><a href="login.html">Cerrar Sesion</a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+		<!-- /.navbar -->
+
+		<!-- Page Content -->
+		<div class="container-fluid">
+			
+			<!-- /.row -->
+
+			<div class="row">
+				<div class="col-sm-8 col-sm-push-4">
+
+
+					<!-- Comments -->
+					<h3>Login</h3>
+					<div class="well">
+						<form>
+							<div class="form-group">
+								<label for="contactId">Identificador</label>
+								<input type="number" class="form-control" id="contactId" placeholder="Identificador">
+							</div>
+							<div class="form-group">
+								<label for="contactNombre">Nombre</label>
+								<input type="text" class="form-control" id="contactNombre" placeholder="Nombre">
+							</div>
+                                                        <div class="form-group">
+								<label for="contactPass">Password</label>
+								<input type="password" class="form-control" id="contactPass" placeholder="Password">
+							</div>
+                                                        <div class="form-group">
+								<label for="contactPassConfirmation">Confirme Password</label>
+								<input type="password" class="form-control" id="contactPassConfirmation" placeholder="Password">
+							</div>
+                                                    
+                                                        <div class="form-group">
+								<label for="contactTipo">Tipo de Estacion</label>
+								<select name="contactTipo" size="2" id="contactTipo">
+                                                                    <option>Clave</option>
+                                                                    <option> General</option>
+                                                                </select>
+							</div>
+                                                    
+							<button type="submit" class="btn btn-default">Registrar</button>
+                                                        
+						</form>
+					</div>
+					<hr>
+
+
+				</div>
+				<div class="col-sm-4 col-sm-pull-8">
+					<!-- Search -->
+					<div class="well">
+						<h4 class="margin-t-0">Buscar</h4>
+						<form action="#">
+							<div class="input-group">
+								<label class="sr-only" for="search-form">Search the site</label>
+								<input type="text" class="form-control" id="search-form">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button">
+										<span class="glyphicon glyphicon-search"></span>
+										<span class="sr-only">Buscar</span>
+									</button>
+								</span>
+							</div>
+						</form>
+					</div>
+
+					<!-- Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">8 Años de servicio</h4>
+						</div>
+						<div class="panel-body">
+                                                    <p>
+                                                        Con total éxito se celebraron los ocho años de Transmetro, el sistema que desde sus inicios ha movilizado a 625 millones de usuarios y para conmemorar este aniversario se contó con la presencia de nuestro Alcalde Alvaro Arzú, y funcionarios de la Empresa Municipal de Transporte –EMT-.
+                                                    </p>
+						</div>
+					</div>
+
+                                        <!-- Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">Tarjetas Siga</h4>
+						</div>
+						<div class="panel-body">
+                                                    <p>
+                                                        La tarjeta SIGA es el nuevo medio de pago de transporte urbano de la región metropolitana de la ciudad de Guatemala.
+
+                                                        En cada viaje se descontará el valor del pasaje, con lo cual usted no tendrá que cargar monedas o efectivo, sólo deberá acercar la tarjeta al validador para poder hacer uso del nuevo sistema de Transporte Urbano.
+                                                    </p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- /.row -->
+
+			<hr>
+			<footer class="margin-tb-3">
+				<div class="row">
+					<div class="col-lg-12">
+						<p>Copyright &copy; EDD 2015</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- /.container-fluid -->
+
+		<!-- JQuery scripts -->
+	    <script src="assets/js/jquery-1.11.2.min.js"></script>
+
+		<!-- Bootstrap Core scripts -->
+		<script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
