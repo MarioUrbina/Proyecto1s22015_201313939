@@ -5,6 +5,8 @@
  */
 package Clases;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Mario
@@ -15,6 +17,7 @@ public class Chofer {
     String Apellido;
     String Correo;
     String Contrasena;
+    ArrayList<AsignacionChofer> listaAsignacion;
 
     
      public int getIdentificador() {
@@ -55,16 +58,24 @@ public class Chofer {
     public void setContrasena(String Contrasena) {
         this.Contrasena = Contrasena;
     }   
+     public ArrayList<AsignacionChofer> getlistaAsignacion() {
+        return listaAsignacion;
+    }
+
+    public void setlistaAsignacion(ArrayList<AsignacionChofer> listaAsignacion) {
+        this.listaAsignacion = listaAsignacion;
+    }
     
     public Chofer(){
     }
     
-    public Chofer(int id,String nombre, String apellido, String correo, String contrasena){
+    public Chofer(int id,String nombre, String apellido, String correo, String contrasena,ArrayList<AsignacionChofer> lista){
         this.Identificador = id;
         this.Nombre = nombre;
         this.Apellido = apellido;
         this.Correo = correo;
         this.Contrasena = contrasena;
+        this.listaAsignacion = lista;
     }
     
     

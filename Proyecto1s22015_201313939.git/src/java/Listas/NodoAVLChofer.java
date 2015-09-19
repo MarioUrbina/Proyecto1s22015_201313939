@@ -13,15 +13,15 @@ import Clases.Chofer;
  */
 public class NodoAVLChofer {
     public Chofer Cho;
-    public NodoAVLAdmin Izquierdo;
-    public NodoAVLAdmin Derecho;
+    public NodoAVLChofer Izquierdo;
+    public NodoAVLChofer Derecho;
     public int Altura;
     
     public NodoAVLChofer(Chofer cho){
        this(cho,null,null);
    }
     
-    public NodoAVLChofer (Chofer cho, NodoAVLAdmin izq , NodoAVLAdmin der ){
+    public NodoAVLChofer (Chofer cho, NodoAVLChofer izq , NodoAVLChofer der ){
         this.Cho = cho;
         this.Izquierdo = izq;
         this.Derecho = der;
